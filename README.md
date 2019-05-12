@@ -1,6 +1,6 @@
 # Open Services
 
-A Open Service is a public infrastructure project whos purpose is to act similar
+A Open Service is a public infrastructure project which purpose is to act similar
 to a public service/utility.
 
 This means the service should not seek to earn profit for it's owners and/or
@@ -12,14 +12,14 @@ providing some values to it's users. Users who think the service is providing
 enough value to be funded, will help fund the service.
 
 One of the first Open Services is Open-Registry, a public package registry
-that serves software engineers with neccessary infrastructure to share code
+that serves software engineers with necessary infrastructure to share code
 between different projects and package managers.
 
 Other Open Services are in the `Evaluating` phase.
 
 Open Services are similar to "Open Startups" but without the for-profit motive
-that a company has. Open Startups refers to openess and sharing of statistics
-publicy, but Open Services goes one step further and declares that the Open Service
+that a company has. Open Startups refers to openness and sharing of statistics
+publicly, but Open Services goes one step further and declares that the Open Service
 is explicitly not about earning profit but about providing value for all it's
 users and open to the community to own and contribute to.
 
