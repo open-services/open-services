@@ -37,9 +37,9 @@ The framework consists of multiple parts.
 
 ### Finance
 - Self-Funded
-- Allows Monthly donations
 - Automatic payment of expenses from same funds
 - Public history of current/past incomes/expenses
+- Efficiency of received funds
 - Have shutdown scenario in mind
   - What happens with existing funds?
   - How will shutdown of financial services happen?
