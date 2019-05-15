@@ -1,10 +1,10 @@
-## Governance of {{Service-Name}}
+# Governance of {{Service-Name}}
 
-Last Update: 2019-05-12
+Last Update: 2019-05-15
 
 Version: 1.0
 
-### 1. Name & Purpose
+## 1. Name & Purpose
 
 1.1 The official name of the project and organization is "{{Service-Name}}".
 
