@@ -13,6 +13,8 @@ the published expense report.
 - How much is the expense?
 - What is the period we're being billed for?
 
+Expenses include any salaries paid to full-time/part-time developers who help maintain the service as well.
+
 Incoming donations are more relaxed as donors might want to be anonymous. What has to be clear:
 
 - What the donation is for (name of the service)
