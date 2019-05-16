@@ -1,3 +1,24 @@
+---
+home: true
+heroImage: /hero.png
+actionText: Get Started →
+actionLink: /guide/
+features:
+- title: Community Governance
+  details: Details
+- title: Public Funding
+  details: Details
+- title: Fully Transparent
+  details: Details
+- title: Set up for long-term
+  details: Details
+- title: Explicit Roadmaps
+  details: Details
+- title: Explicit Roadmaps
+  details: Details
+footer: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) | Copyright © 2019 Open Services
+---
+
 # Open Services
 
 A Open Service is a public infrastructure project which purpose is to act similar
