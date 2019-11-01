@@ -24,11 +24,12 @@ Helps you iterate quickly on static websites, no matter what tool you use to bui
 - Blazing fast for your visitors!
 - Stores each version of your website (website history!)
 - Public registry of Open Source websites
+- Deploy previews in Pull Requests / Merge Requests
 - Built-In support for most static website tools
 - Free HTTPS
 
 - Automated builds via GitHub/GitLab/(Bitbucket?)
-- Upload websites directly from your terminal
+- Upload websites directly from your repository, terminal or the web interface
 
 #### What should be easy to extend?
 
@@ -36,12 +37,12 @@ Not everything should be extensible, as it's not planned to be switchable.
 
 But some pieces do make sense to be extensible from the beginning, they include:
 
-- Built-In platforms (hugo, jekyll, gatsby and so on)
+- Built-In Build Platforms (hugo, jekyll, gatsby and so on)
 - DNS providers
   - Authentication for the DNS providers too (API token vs managed account)
 - Incoming webhooks parsers
   - GitHub and GitLab having different formats
-- Setup Steps
+- Setup Steps (should also somehow be reusable)
   - Basically the pipelines that a website would run
 
 ### Why use website-deploy?
@@ -80,6 +81,10 @@ There are two main ways people are expected to setup website-deploy.
 2) via terminal CLI application. User download and installs the CLI, `cd`s to
    their website, builds the website then runs `website-deploy upload $DIR` and
    chosen website gets uploaded.
+
+3) Drag and drop directories into a web interface. User signs up, opens the upload
+   page and their file explorer. Navigates to the source of their website and
+   drags the directory into the web interface. Now it's uploaded!
 
 ### Supported Built-In Platforms
 
@@ -127,3 +132,28 @@ Unclear. Maybe something like this:
 (the prices are wild fantasy. We have to look at what actually makes sense)
 
 (if 4GB is not enough? People write an email/Get a per GB plan?)
+
+#### Dynamic Pricing
+
+Another interesting pricing strategy would be to combine the available storage
+and bandwidth, change the pricing depending on that.
+
+So the more size is being used by sites, the more expensive the plans get. Up
+until the point where more storage is available in the service.
+
+Tradeoff is that it becomes a bit of a pyramid scheme where the earlier you
+create your site, the cheaper it gets.
+
+### Handling incoming deletion-requests
+
+In order to be lawful, the service needs to respond to incoming requests from
+law enforcement when requesting deletion of websites.
+
+### Analytics
+
+Website-Deploy will gather metrics all around the platform to better understand
+the usage and be able to troubleshoot issues when they arise. We commit to making
+sure the same data we use for this, is the very same data and UI you yourself
+can you to get insights into the running service. With this commitment, comes
+the commitment of making sure the data is aggregated and anonomous enough that
+no one will be able to get insights into YOUR specific project.
